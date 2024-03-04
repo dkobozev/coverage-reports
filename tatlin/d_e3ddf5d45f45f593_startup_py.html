@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Coverage for tatlin/lib/ui/startup.py: 25%</title>
+    <title>Coverage for tatlin/lib/ui/startup.py: 100%</title>
     <link rel="icon" sizes="32x32" href="favicon_32.png">
     <link rel="stylesheet" href="style.css" type="text/css">
     <script type="text/javascript" src="coverage_html.js" defer></script>
@@ -12,7 +12,7 @@
     <div class="content">
         <h1>
             <span class="text">Coverage for </span><b>tatlin/lib/ui/startup.py</b>:
-            <span class="pc_cov">25%</span>
+            <span class="pc_cov">100%</span>
         </h1>
         <aside id="help_panel_wrapper">
             <input id="help_panel_state" type="checkbox">
@@ -55,8 +55,8 @@
         </aside>
         <h2>
             <span class="text">12 statements &nbsp;</span>
-            <button type="button" class="run button_toggle_run" value="run" data-shortcut="r" title="Toggle lines run">3<span class="text"> run</span></button>
-            <button type="button" class="mis show_mis button_toggle_mis" value="mis" data-shortcut="m" title="Toggle lines missing">9<span class="text"> missing</span></button>
+            <button type="button" class="run button_toggle_run" value="run" data-shortcut="r" title="Toggle lines run">12<span class="text"> run</span></button>
+            <button type="button" class="mis show_mis button_toggle_mis" value="mis" data-shortcut="m" title="Toggle lines missing">0<span class="text"> missing</span></button>
             <button type="button" class="exc show_exc button_toggle_exc" value="exc" data-shortcut="x" title="Toggle lines excluded">0<span class="text"> excluded</span></button>
         </h2>
         <p class="text">
@@ -65,7 +65,7 @@
             <a id="nextFileLink" class="nav" href="d_e3ddf5d45f45f593_stl_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io/en/7.4.3">coverage.py v7.4.3</a>,
-            created at 2024-03-04 00:45 +0000
+            created at 2024-03-04 05:45 +0000
         </p>
         <aside class="hidden">
             <button type="button" class="button_next_chunk" data-shortcut="j"/>
@@ -102,20 +102,20 @@
     <p class="pln"><span class="n"><a id="t20" href="#t20">20</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t21" href="#t21">21</a></span><span class="t"><span class="key">class</span> <span class="nam">StartupPanel</span><span class="op">(</span><span class="nam">wx</span><span class="op">.</span><span class="nam">Panel</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t22" href="#t22">22</a></span><span class="t">    <span class="key">def</span> <span class="nam">__init__</span><span class="op">(</span><span class="nam">self</span><span class="op">,</span> <span class="nam">parent</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t23" href="#t23">23</a></span><span class="t">        <span class="nam">super</span><span class="op">(</span><span class="nam">StartupPanel</span><span class="op">,</span> <span class="nam">self</span><span class="op">)</span><span class="op">.</span><span class="nam">__init__</span><span class="op">(</span><span class="nam">parent</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t23" href="#t23">23</a></span><span class="t">        <span class="nam">super</span><span class="op">(</span><span class="nam">StartupPanel</span><span class="op">,</span> <span class="nam">self</span><span class="op">)</span><span class="op">.</span><span class="nam">__init__</span><span class="op">(</span><span class="nam">parent</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t24" href="#t24">24</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t25" href="#t25">25</a></span><span class="t">        <span class="nam">text</span> <span class="op">=</span> <span class="nam">wx</span><span class="op">.</span><span class="nam">StaticText</span><span class="op">(</span><span class="nam">self</span><span class="op">,</span> <span class="nam">label</span><span class="op">=</span><span class="str">"No files loaded"</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t26" href="#t26">26</a></span><span class="t">        <span class="nam">self</span><span class="op">.</span><span class="nam">btn_open</span> <span class="op">=</span> <span class="nam">wx</span><span class="op">.</span><span class="nam">Button</span><span class="op">(</span><span class="nam">self</span><span class="op">,</span> <span class="nam">wx</span><span class="op">.</span><span class="nam">ID_OPEN</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t25" href="#t25">25</a></span><span class="t">        <span class="nam">text</span> <span class="op">=</span> <span class="nam">wx</span><span class="op">.</span><span class="nam">StaticText</span><span class="op">(</span><span class="nam">self</span><span class="op">,</span> <span class="nam">label</span><span class="op">=</span><span class="str">"No files loaded"</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t26" href="#t26">26</a></span><span class="t">        <span class="nam">self</span><span class="op">.</span><span class="nam">btn_open</span> <span class="op">=</span> <span class="nam">wx</span><span class="op">.</span><span class="nam">Button</span><span class="op">(</span><span class="nam">self</span><span class="op">,</span> <span class="nam">wx</span><span class="op">.</span><span class="nam">ID_OPEN</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t27" href="#t27">27</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t28" href="#t28">28</a></span><span class="t">        <span class="nam">box</span> <span class="op">=</span> <span class="nam">wx</span><span class="op">.</span><span class="nam">BoxSizer</span><span class="op">(</span><span class="nam">wx</span><span class="op">.</span><span class="nam">VERTICAL</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t29" href="#t29">29</a></span><span class="t">        <span class="nam">box</span><span class="op">.</span><span class="nam">Add</span><span class="op">(</span><span class="op">(</span><span class="num">0</span><span class="op">,</span> <span class="num">0</span><span class="op">)</span><span class="op">,</span> <span class="num">1</span><span class="op">,</span> <span class="nam">wx</span><span class="op">.</span><span class="nam">EXPAND</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t30" href="#t30">30</a></span><span class="t">        <span class="nam">box</span><span class="op">.</span><span class="nam">Add</span><span class="op">(</span><span class="nam">text</span><span class="op">,</span> <span class="num">0</span><span class="op">,</span> <span class="nam">wx</span><span class="op">.</span><span class="nam">ALIGN_CENTER</span> <span class="op">|</span> <span class="nam">wx</span><span class="op">.</span><span class="nam">ALL</span><span class="op">,</span> <span class="nam">border</span><span class="op">=</span><span class="num">5</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t31" href="#t31">31</a></span><span class="t">        <span class="nam">box</span><span class="op">.</span><span class="nam">Add</span><span class="op">(</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t28" href="#t28">28</a></span><span class="t">        <span class="nam">box</span> <span class="op">=</span> <span class="nam">wx</span><span class="op">.</span><span class="nam">BoxSizer</span><span class="op">(</span><span class="nam">wx</span><span class="op">.</span><span class="nam">VERTICAL</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t29" href="#t29">29</a></span><span class="t">        <span class="nam">box</span><span class="op">.</span><span class="nam">Add</span><span class="op">(</span><span class="op">(</span><span class="num">0</span><span class="op">,</span> <span class="num">0</span><span class="op">)</span><span class="op">,</span> <span class="num">1</span><span class="op">,</span> <span class="nam">wx</span><span class="op">.</span><span class="nam">EXPAND</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t30" href="#t30">30</a></span><span class="t">        <span class="nam">box</span><span class="op">.</span><span class="nam">Add</span><span class="op">(</span><span class="nam">text</span><span class="op">,</span> <span class="num">0</span><span class="op">,</span> <span class="nam">wx</span><span class="op">.</span><span class="nam">ALIGN_CENTER</span> <span class="op">|</span> <span class="nam">wx</span><span class="op">.</span><span class="nam">ALL</span><span class="op">,</span> <span class="nam">border</span><span class="op">=</span><span class="num">5</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t31" href="#t31">31</a></span><span class="t">        <span class="nam">box</span><span class="op">.</span><span class="nam">Add</span><span class="op">(</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t32" href="#t32">32</a></span><span class="t">            <span class="nam">self</span><span class="op">.</span><span class="nam">btn_open</span><span class="op">,</span> <span class="num">0</span><span class="op">,</span> <span class="nam">wx</span><span class="op">.</span><span class="nam">ALIGN_CENTER</span> <span class="op">|</span> <span class="nam">wx</span><span class="op">.</span><span class="nam">RIGHT</span> <span class="op">|</span> <span class="nam">wx</span><span class="op">.</span><span class="nam">BOTTOM</span> <span class="op">|</span> <span class="nam">wx</span><span class="op">.</span><span class="nam">LEFT</span><span class="op">,</span> <span class="nam">border</span><span class="op">=</span><span class="num">5</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t33" href="#t33">33</a></span><span class="t">        <span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t34" href="#t34">34</a></span><span class="t">        <span class="nam">box</span><span class="op">.</span><span class="nam">Add</span><span class="op">(</span><span class="op">(</span><span class="num">0</span><span class="op">,</span> <span class="num">0</span><span class="op">)</span><span class="op">,</span> <span class="num">1</span><span class="op">,</span> <span class="nam">wx</span><span class="op">.</span><span class="nam">EXPAND</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t34" href="#t34">34</a></span><span class="t">        <span class="nam">box</span><span class="op">.</span><span class="nam">Add</span><span class="op">(</span><span class="op">(</span><span class="num">0</span><span class="op">,</span> <span class="num">0</span><span class="op">)</span><span class="op">,</span> <span class="num">1</span><span class="op">,</span> <span class="nam">wx</span><span class="op">.</span><span class="nam">EXPAND</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t35" href="#t35">35</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t36" href="#t36">36</a></span><span class="t">        <span class="nam">self</span><span class="op">.</span><span class="nam">SetSizer</span><span class="op">(</span><span class="nam">box</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t36" href="#t36">36</a></span><span class="t">        <span class="nam">self</span><span class="op">.</span><span class="nam">SetSizer</span><span class="op">(</span><span class="nam">box</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
 </main>
 <footer>
     <div class="content">
@@ -125,7 +125,7 @@
             <a id="nextFileLink" class="nav" href="d_e3ddf5d45f45f593_stl_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io/en/7.4.3">coverage.py v7.4.3</a>,
-            created at 2024-03-04 00:45 +0000
+            created at 2024-03-04 05:45 +0000
         </p>
     </div>
 </footer>
