@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Coverage for tatlin/lib/gl/gcodemodel.py: 61%</title>
+    <title>Coverage for tatlin/lib/gl/gcodemodel.py: 62%</title>
     <link rel="icon" sizes="32x32" href="favicon_32.png">
     <link rel="stylesheet" href="style.css" type="text/css">
     <script type="text/javascript" src="coverage_html.js" defer></script>
@@ -12,7 +12,7 @@
     <div class="content">
         <h1>
             <span class="text">Coverage for </span><b>tatlin/lib/gl/gcodemodel.py</b>:
-            <span class="pc_cov">61%</span>
+            <span class="pc_cov">62%</span>
         </h1>
         <aside id="help_panel_wrapper">
             <input id="help_panel_state" type="checkbox">
@@ -55,8 +55,8 @@
         </aside>
         <h2>
             <span class="text">157 statements &nbsp;</span>
-            <button type="button" class="run button_toggle_run" value="run" data-shortcut="r" title="Toggle lines run">96<span class="text"> run</span></button>
-            <button type="button" class="mis show_mis button_toggle_mis" value="mis" data-shortcut="m" title="Toggle lines missing">61<span class="text"> missing</span></button>
+            <button type="button" class="run button_toggle_run" value="run" data-shortcut="r" title="Toggle lines run">97<span class="text"> run</span></button>
+            <button type="button" class="mis show_mis button_toggle_mis" value="mis" data-shortcut="m" title="Toggle lines missing">60<span class="text"> missing</span></button>
             <button type="button" class="exc show_exc button_toggle_exc" value="exc" data-shortcut="x" title="Toggle lines excluded">0<span class="text"> excluded</span></button>
         </h2>
         <p class="text">
@@ -65,7 +65,7 @@
             <a id="nextFileLink" class="nav" href="d_5e070adbac5c777c_model_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io/en/7.4.4">coverage.py v7.4.4</a>,
-            created at 2024-03-19 05:59 +0000
+            created at 2024-03-20 05:56 +0000
         </p>
         <aside class="hidden">
             <button type="button" class="button_next_chunk" data-shortcut="j"/>
@@ -239,7 +239,7 @@
     <p class="run"><span class="n"><a id="t157" href="#t157">157</a></span><span class="t">        <span class="key">if</span> <span class="nam">extruder_on</span> <span class="key">and</span> <span class="nam">outer_perimeter</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t158" href="#t158">158</a></span><span class="t">            <span class="nam">color</span> <span class="op">=</span> <span class="op">(</span><span class="num">0.0</span><span class="op">,</span> <span class="num">0.875</span><span class="op">,</span> <span class="num">0.875</span><span class="op">,</span> <span class="num">0.6</span><span class="op">)</span>  <span class="com"># cyan</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t159" href="#t159">159</a></span><span class="t">        <span class="key">elif</span> <span class="nam">extruder_on</span> <span class="key">and</span> <span class="nam">move</span><span class="op">.</span><span class="nam">flags</span> <span class="op">&amp;</span> <span class="nam">Movement</span><span class="op">.</span><span class="nam">FLAG_PERIMETER</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t160" href="#t160">160</a></span><span class="t">            <span class="nam">color</span> <span class="op">=</span> <span class="op">(</span><span class="num">0.0</span><span class="op">,</span> <span class="num">1.0</span><span class="op">,</span> <span class="num">0.0</span><span class="op">,</span> <span class="num">0.6</span><span class="op">)</span>  <span class="com"># green</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t160" href="#t160">160</a></span><span class="t">            <span class="nam">color</span> <span class="op">=</span> <span class="op">(</span><span class="num">0.0</span><span class="op">,</span> <span class="num">1.0</span><span class="op">,</span> <span class="num">0.0</span><span class="op">,</span> <span class="num">0.6</span><span class="op">)</span>  <span class="com"># green</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t161" href="#t161">161</a></span><span class="t">        <span class="key">elif</span> <span class="nam">extruder_on</span> <span class="key">and</span> <span class="nam">move</span><span class="op">.</span><span class="nam">flags</span> <span class="op">&amp;</span> <span class="nam">Movement</span><span class="op">.</span><span class="nam">FLAG_LOOP</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t162" href="#t162">162</a></span><span class="t">            <span class="nam">color</span> <span class="op">=</span> <span class="op">(</span><span class="num">1.0</span><span class="op">,</span> <span class="num">0.875</span><span class="op">,</span> <span class="num">0.0</span><span class="op">,</span> <span class="num">0.6</span><span class="op">)</span>  <span class="com"># yellow</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t163" href="#t163">163</a></span><span class="t">        <span class="key">elif</span> <span class="nam">extruder_on</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
@@ -389,7 +389,7 @@
             <a id="nextFileLink" class="nav" href="d_5e070adbac5c777c_model_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io/en/7.4.4">coverage.py v7.4.4</a>,
-            created at 2024-03-19 05:59 +0000
+            created at 2024-03-20 05:56 +0000
         </p>
     </div>
 </footer>
